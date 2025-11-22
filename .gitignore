@@ -1,9 +1,29 @@
+# NEXT.JS BUILD FILES
 .next/
-node_modules/
-.env.local
-.env
-.turbo/
-.vercel/
+out/
 dist/
 build/
-package-lock.json
+
+# NODE MODULES
+node_modules/
+
+# ENV FILES
+.env
+.env.local
+.env.development
+.env.production
+
+# SYSTEM
+.DS_Store
+Thumbs.db
+
+# VERCEL
+.vercel/
+
+# TURBO
+.turbo/
+
+# LOGS
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
